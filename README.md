@@ -6,7 +6,7 @@
     该项目目前已经使用在本人最近的APP项目中,
   > 测试地址
   >
-  >   ![测试](https://community.apicloud.com/bbs/data/attachment/forum/201907/07/050206hx73bj21za1xa3sx.png)
+  >   ![测试](https://app.cnchu.com/app/applink.png)
 ## 目录介绍
   - 根目录/
       - config  
