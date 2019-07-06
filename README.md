@@ -4,7 +4,7 @@
     另外引入了TypeScript,在代码提示和团队协作开发方面十分酸爽
     UI使用的目前国际上较流行的Material-UI
     该项目目前已经使用在本人最近的APP项目中,
-  > 测试地址
+  > 测试地址(安卓版)
   >
   >   ![测试](https://app.cnchu.com/app/applink.png)
 ## 目录介绍
@@ -46,3 +46,7 @@
    - 使用VS Code编辑器
    - 插件  [自定义同步调试](https://marketplace.visualstudio.com/items?itemName=KAI.apicloud)
 
+## 适配
+  - 安卓7.0以上(RAM<4G的设备会出现卡顿)
+  - IOS 8以上(iPhone6以下的设备会出现卡顿)
+  - 卡顿的情况视项目大小以及动效复杂度
