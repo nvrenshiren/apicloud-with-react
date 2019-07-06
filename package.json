@@ -1,0 +1,37 @@
+{
+  "name": "umi-apicloud",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "@material-ui/lab": "^4.0.0-alpha.15",
+    "classnames": "^2.2.6",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-swipeable-views": "^0.13.3",
+    "react-swipeable-views-utils": "^0.13.3",
+    "react-virtualized": "^9.21.1",
+    "umi": "^2.7.7",
+    "umi-plugin-react": "^1.8.4",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.8.4",
+    "@types/react-swipeable-views": "^0.13.0",
+    "@types/react-virtualized": "^9.21.2",
+    "@types/underscore": "^1.8.19",
+    "mockjs": "^1.0.1-beta3",
+    "roadhog-api-doc": "^1.1.2",
+    "spritesmith": "^3.3.1"
+  },
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "icons": "node script/sprite.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

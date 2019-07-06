@@ -1,0 +1,76 @@
+<!-- 具体配置请根据自己的APP来调整 -->
+<widget id="A9999999999"  version="0.0.1">
+<name>APP名称</name>
+<description></description>
+<author email="86727767@qq.com" href="">蔚然成霖</author>
+<!-- 开发模式请注释掉 -->
+<!-- <content src="dev/index.html" /> -->
+<content src="dist/home.html" />
+<!-- / -->
+<access origin="*" />
+<preference name="appBackground" value="rgba(255,255,255,1)"/>
+<preference name="windowBackground" value="rgba(255,255,255,0)"/>
+<preference name="frameBackgroundColor" value="rgba(255,255,255,0)"/>
+<preference name="pageBounce" value="false"/>
+<preference name="hScrollBarEnabled" value="false"/>
+<preference name="vScrollBarEnabled" value="true"/>
+<preference name="autoLaunch" value="false"/>
+<preference name="statusBarAppearance" value="true"/>
+<preference name="fullScreen" value="false"/>
+<preference name="autoUpdate" value="true"/>
+<preference name="smartUpdate" value="true"/>
+<preference name="debug" value="true"/>
+<preference name="allowKeyboardExtension" value="true"/>
+<preference name="softInputMode" value="auto"/>
+<preference name="urlScheme" value="jzrb"/>
+<preference name="querySchemes" value="weixin,sinaweibo,mqq,alipay" />
+<preference name="userAgent" value="apicloud"/>
+<preference name="fileShare" value="false"/>
+<preference name="launcher" value="true"/>
+<permission name="readPhoneState"/>
+<permission name="call"/>
+<permission name="sms"/>
+<permission name="camera"/>
+<permission name="record"/>
+<permission name="location"/>
+<permission name="fileSystem"/>
+<permission name="internet"/>
+<permission name="bootCompleted"/>
+<permission name="hardware"/>
+<permission name="contact"/>
+<feature name="ajpush">
+<param name="app_key" value="41e9d6f2cfdee89e6f082e84"/>
+<param name="channel" value="apicloud"/>
+</feature>
+<feature name="wx">
+<param name="urlScheme" value="wxfa6af901447f1949"/>
+<param name="apiKey" value="wxfa6af901447f1949"/>
+<param name="apiSecret" value="df18fc0232da19f80bdf3d59700387d8"/>
+</feature>
+<feature name="weibo">
+<param name="urlScheme" value="wb4051347239"/>
+<param name="apiKey" value="4051347239"/>
+<param name="registUrl" value="http://app.cjn.cn/apps/"/>
+</feature>
+<feature name="QQPlus">
+<param name="urlScheme" value="tencent1104160390"/>
+<param name="apiKey" value="1104160390"/>
+</feature>
+<feature name="bMap">
+<param name="android_api_key" value="nkSjLg8x12xAVoMWbHvWMigfCC6Rtk1f"/>
+<param name="ios_api_key" value="SgTnikZ71w8h5n8XIE4Y1P2POckd6vdx"/>
+</feature>
+<feature name="TalkingData">
+<param name="logEnable" value="true"/>
+<param name="exceptionReportEnabled" value="true"/>
+<param name="channel" value="AppStore"/>
+</feature>
+<feature name="aliPay">
+<param name="urlScheme" value="AliPayA6055067073820"/>
+</feature>
+<feature name="wxPay">
+<param name="urlScheme" value="wxfa6af901447f1949"/>
+<param name="apiKey" value="wxfa6af901447f1949"/>
+<param name="apiSecret" value="df18fc0232da19f80bdf3d59700387d8"/>
+</feature>
+</widget>

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["es2017", "dom"],
+    "jsx": "react",
+    "baseUrl": "./src/",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": [
+    "./config/**/*",
+    "./mock/**/*",
+    "./node_modules/**/*",
+    "./dist",
+    "./script"
+  ],
+  "include": ["./src/**/*"]
+}
